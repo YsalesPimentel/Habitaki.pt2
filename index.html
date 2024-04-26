@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <title>Habitaki</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="/Projeto/CSS/Button.css">
+  <link rel="stylesheet" href="/Projeto/CSS/Classes.css">
+  <link rel="stylesheet" href="/Projeto/CSS/Elementos.css">
+  <link rel="stylesheet" href="/Projeto/CSS/Footer.css">
+  <link rel="stylesheet" href="/Projeto/CSS/Id.css">
+  <link rel="stylesheet" href="/Projeto/CSS/Menu.css">
+  <link rel="stylesheet" href="/Projeto/CSS/Variaveis.css">
+</head>
+<body>
+
+
+ <header class="menu">
+    <div class="main-content menu-content">
+      <h1 class="logo"><a href="#">Habitaki</a></h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Comprar</a></li>
+          <li><a href="#">Alugar</a></li>
+          <li><a href="#">Explorar</a></li>
+          <li><a href="#">Anunciar</a></li>
+          <div class="login-button">
+            <button><a href="#">Acessar conta</a></button>
+          </div>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="grid-one-content">
+      <p class="inicio">Início / Venda / SP Casas de Condomínio à Venda em Itu / Jardim Residencial Itaim</p>
+    </div>
+    <section class="search">
+      <div class="container">
+          <div class="property_location">
+            <div>
+              <h6 class="grid-main-heading">Localização do Imóvel</h6>
+              <input type="text" id="inputBuscar" placeholder="Digite uma rua, bairro ou cidade">
+            </div>
+    
+            <div class="list-info">
+              <h6 class="grid-main-heading">Imóvel com</h6>
+              <input type="checkbox" id="chk">
+              <label for="chk" class="switch">
+                <span class="slider"></span>
+              </label>
+              <p class="tour">Tour Virtual ou Vídeos</p>
+
+            
+              
+              <h6 class="grid-main-heading">Tipo de Imóvel</h6>
+              <select class="property_type">
+                <option value="">Mostrar todos</option>
+                <option value="">Apartamento</option>
+                <option value="">Sobrado</option>
+                <option value="">Casa</option>
+                <option value="">Cobertura</option>
+              </select>
+    
+              <div class="prices">
+                <table>
+                  <tr>
+                    <td class="bond_price">Preço Mínimo</td>
+                    <td class="bond_price">Preço Máximo</td>
+                  </tr>
+                  <tr>
+                    <td><input type="text" name="" id="" placeholder="R$"></td>
+                    <td><input type="text" placeholder="R$"></td>
+                  </tr>
+                </table>
+    
+              </div>
+    
+              <div>
+                <h6 class="number_of_bedrooms">Número de quartos</h6>
+                <button class="btn_how_many">1</button>
+                <button class="btn_how_many">2</button>
+                <button class="btn_how_many">3</button>
+                <button class="btn_how_many_plus">4+</button>
+              </div>
+            </div>
+          </div>
+    
+          <div class="search_more">
+            <div>  
+              <table class="prices">
+                <tr>
+                  <td class="bond_price">Área mínima</td>
+                  <td class="bond_price">Área máxima</td>
+                </tr>
+                <tr>
+                  <td><input type="text" name="" id="" placeholder="42m2" class="text_right"></td>
+                  <td><input type="text" placeholder=" 120" class="text_right"></td>
+                </tr>
+              </table>
+            </div>
+    
+            <div>
+              <h6 class="number_of_vacancies">Número de vagas</h6>
+              <button class="btn_vacancies">1</button>
+              <button class="btn_vacancies">2</button>
+              <button class="btn_vacancies">3</button>
+              <button class="btn_vacancies_plus">4+</button>
+            </div>
+    
+            <div>
+              <h6 class="number_of_bathrooms">Número de banheiros</h6>
+              <button class="btn_bathroom">1</button>
+              <button class="btn_bathroom">2</button>
+              <button class="btn_bathroom">3</button>
+              <button class="btn_bathroom_plus">4+</button>
+            </div>
+
+            <div class="checkbox-container">
+              <h6 class="checkbox_topics">Lazer e Esporte</h6>
+              <label class="checkbox_text">
+                <input class="checkbox_size" type="checkbox" name="checkbox1">
+                Academia (12)
+              </label>
+              <label class="checkbox_text">
+                <input class="checkbox_size" type="checkbox" name="checkbox2">
+                Churrasqueira (31) 
+              </label>
+
+              
+              <h6 class="checkbox_topics">Comodidades e serviços</h6>
+              <label class="checkbox_text">
+                <input class="checkbox_size" type="checkbox" name="checkbox1">
+                Aceita animais (12)
+              </label>
+              <label class="checkbox_text">
+                <input class="checkbox_size" type="checkbox" name="checkbox2">
+                Aquecimento (31) 
+              </label>
+
+
+              <h6 class="checkbox_topics">Segurança</h6>
+              <label class="checkbox_text">
+                <input class="checkbox_size" type="checkbox" name="checkbox1">
+                Interfone (12)
+              </label>
+              <label class="checkbox_text">
+                <input class="checkbox_size" type="checkbox" name="checkbox2">
+                Condomínio fechado (31) 
+              </label>
+
+
+              <h6 class="checkbox_topics">Cômodos</h6>
+              <label class="checkbox_text">
+                <input class="checkbox_size" type="checkbox" name="checkbox1">
+                Cozinha (12)
+              </label>
+              <label class="checkbox_text">
+                <input class="checkbox_size" type="checkbox" name="checkbox2">
+                Sala de cinema (31) 
+              </label>
+
+              <div>
+                <h6 class="search_main">O que mais você busca?</h6>
+                <input type="text" id="inputBuscar" placeholder="Ex:Permuta, imobiliado">
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+
+
+
+
+
+      <div class="show_apartaments">
+        <div class="options_main">
+          <ul class="options">
+            <li class="list-first">COMPRAR<a href="#"></a></li>
+
+
+            <li class="list-first">ALUGAR<a href="#"></a></li>
+
+
+            <li class="btn_more"><button><a href="#"><svg fill="#686767" width="139px" height="139px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" transform="rotate(90)" stroke="#686767"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.256"/><g id="SVGRepo_iconCarrier"> <path d="M29.000,13.858 L29.000,31.000 C29.000,31.553 28.553,32.000 28.000,32.000 C27.447,32.000 27.000,31.553 27.000,31.000 L27.000,13.858 C25.279,13.411 24.000,11.859 24.000,10.000 C24.000,8.141 25.279,6.589 27.000,6.142 L27.000,1.000 C27.000,0.447 27.447,0.000 28.000,0.000 C28.553,0.000 29.000,0.447 29.000,1.000 L29.000,6.142 C30.721,6.589 32.000,8.141 32.000,10.000 C32.000,11.859 30.721,13.411 29.000,13.858 ZM28.000,8.000 C26.898,8.000 26.000,8.897 26.000,10.000 C26.000,11.103 26.898,12.000 28.000,12.000 C29.103,12.000 30.000,11.103 30.000,10.000 C30.000,8.897 29.103,8.000 28.000,8.000 ZM17.000,25.858 L17.000,31.000 C17.000,31.553 16.553,32.000 16.000,32.000 C15.447,32.000 15.000,31.553 15.000,31.000 L15.000,25.858 C13.279,25.411 12.000,23.859 12.000,22.000 C12.000,20.141 13.279,18.589 15.000,18.142 L15.000,1.000 C15.000,0.447 15.447,0.000 16.000,0.000 C16.553,0.000 17.000,0.447 17.000,1.000 L17.000,18.142 C18.721,18.589 20.000,20.141 20.000,22.000 C20.000,23.859 18.721,25.411 17.000,25.858 ZM16.000,20.000 C14.897,20.000 14.000,20.898 14.000,22.000 C14.000,23.102 14.897,24.000 16.000,24.000 C17.103,24.000 18.000,23.102 18.000,22.000 C18.000,20.898 17.103,20.000 16.000,20.000 ZM5.000,19.858 L5.000,31.000 C5.000,31.553 4.553,32.000 4.000,32.000 C3.447,32.000 3.000,31.553 3.000,31.000 L3.000,19.858 C1.279,19.411 0.000,17.859 0.000,16.000 C0.000,14.141 1.279,12.589 3.000,12.142 L3.000,1.000 C3.000,0.447 3.447,0.000 4.000,0.000 C4.553,0.000 5.000,0.447 5.000,1.000 L5.000,12.142 C6.721,12.589 8.000,14.141 8.000,16.000 C8.000,17.859 6.721,19.411 5.000,19.858 ZM4.000,14.000 C2.898,14.000 2.000,14.898 2.000,16.000 C2.000,17.103 2.898,18.000 4.000,18.000 C5.102,18.000 6.000,17.103 6.000,16.000 C6.000,14.898 5.102,14.000 4.000,14.000 Z"/> </g></svg>More</a></button></li>
+
+
+            <li class="squares2"><svg fill="#737373" width="800px" height="800px" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg" stroke="#737373"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <path d="M120,48v64a7.9954,7.9954,0,0,1-8,8H48a7.99539,7.99539,0,0,1-8-8V48a7.99539,7.99539,0,0,1,8-8h64A7.9954,7.9954,0,0,1,120,48Zm88-8H144a7.99539,7.99539,0,0,0-8,8v64a7.99539,7.99539,0,0,0,8,8h64a7.9954,7.9954,0,0,0,8-8V48A7.9954,7.9954,0,0,0,208,40Zm-96,96H48a7.99539,7.99539,0,0,0-8,8v64a7.99539,7.99539,0,0,0,8,8h64a7.9954,7.9954,0,0,0,8-8V144A7.9954,7.9954,0,0,0,112,136Zm96,0H144a7.99539,7.99539,0,0,0-8,8v64a7.99539,7.99539,0,0,0,8,8h64a7.9954,7.9954,0,0,0,8-8V144A7.9954,7.9954,0,0,0,208,136Z"/> </g></svg></li>
+
+
+            <li class="config"><svg width="800px" height="800px" viewBox="0 -3 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#0400d6" stroke="#0400d6"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <title>list [#0400d6]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-219.000000, -322.000000)" fill="#0400d6"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M163,177 L166.15,177 L166.15,174 L163,174 L163,177 Z M168.25,177 L184,177 L184,175 L168.25,175 L168.25,177 Z M163,171 L166.15,171 L166.15,168 L163,168 L163,171 Z M168.25,171 L184,171 L184,169 L168.25,169 L168.25,171 Z M163,165 L166.15,165 L166.15,162 L163,162 L163,165 Z M168.25,165 L184,165 L184,163 L168.25,163 L168.25,165 Z" id="list-[#0400d6]"> </path> </g> </g> </g> </g></svg></li>
+
+
+            <li>Ordenar por:<a class="price_list" href="#">Preço</a></li>
+          </ul>
+        </div>
+        <div class="apartament_list">
+
+          <div class="gray_line">
+            <p class="search_result"> <span class="bold">1.600.956 </span>Imóveis à venda em São Paulo - SP </p>
+          </div>
+          <div class="apartament_list">
+            <div class="apartament">
+              <div class="img_apartament">
+                <img src="Projeto/IMG/Casa1.jpg" alt="">
+              </div>
+
+              <div class="inform_apartament">
+                <div class="address">
+                  <span class="Endereço">Avenida Mofarrej, 275, Vila Leopoldina, São Paulo - SP</span>
+                </div>
+                <div class="apartament_description">Casa de Condomínio com 3 Quartos e 4 Banheiros <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"><path d="M12.39 20.87a.696.696 0 0 1-.78 0C9.764 19.637 2 14.15 2 8.973c0-6.68 7.85-7.75 10-3.25 2.15-4.5 10-3.43 10 3.25 0 5.178-7.764 10.664-9.61 11.895z" fill="#ec5f5f"/></g></svg></div>
+              </div>
+
+              <div class="condominium_items">
+                <ul>
+                  <li class="bed"><svg width="179px" height="179px" viewBox="-13.44 -13.44 90.88 90.88" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--emojione-monotone" preserveAspectRatio="xMidYMid meet" fill="#ff0000" stroke="#ff0000" stroke-width="0.00064"><g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(0,0), scale(1)"><rect x="-13.44" y="-13.44" width="90.88" height="90.88" rx="45.44" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.128"/><g id="SVGRepo_iconCarrier"><path d="M60.026 39.445v-5.854l-5.82-1.464l-.397-.744c-.469-.875-.856-1.433-1.154-1.657c-.33-.255-.889-.394-1.42-.468c-.401-.745-.676-.864-.835-.934a1.345 1.345 0 0 0-.536-.106c-.438 0-.967.208-1.408.43c-.679-.729-1.063-.734-1.267-.736h-.224c-2.12 0-4.896.154-7.912.42l-.798-1.016c-.023-.03-2.393-3.065-3.031-5.41l-.116-.425v-8.232s-2.338.345-3.488-2.554h-1.031s-.27.111-.725.168c-.922-.105-2.119-.521-3.388-1.719C23.145 6 19.965 6 19.965 6h-1.031s-3.558 0-7.28 3.145c-1.356 1.146-2.659 1.637-3.567 1.745c-.716-.032-1.155-.194-1.155-.194H5.9C4.615 13.594 2 13.249 2 13.249v28.222h.412v2.935H3.81l.635-2.028l9.599 6.145c.28 1.771 1.5 5.656 1.5 5.656s1.313-3.081 1.521-3.722l.958.612l.488 2.483l.572-1.805l3.075 1.971l.375 3.903l.552.379l1.331-.379l.637-3.64l34.016-5.672l.843 3.444l1.675-.276V47.89l.413-.07v-7.453l-1.974-.922M30.905 21.904c2.139 0 3.413.245 3.413.245c.697 2.559 3.197 5.738 3.197 5.738l-.311-.002c-6.207 0-10.847 1.852-10.847 1.852c-1.005-3.917-3.158-6.85-3.158-6.85a31.578 31.578 0 0 1 7.706-.983m-13.24.798c2.39 0 3.813.273 3.813.273c.78 2.862 3.574 6.417 3.574 6.417a35.864 35.864 0 0 0-.328-.002c-6.951 0-12.148 2.073-12.148 2.073c-1.124-4.382-3.534-7.661-3.534-7.661c3.45-.872 6.439-1.1 8.623-1.1m-9.038 2.155a24.905 24.905 0 0 1 2.621 5.425c-.463.112-.723.184-.723.184c-3.618-1.418-4.719-4.387-4.719-4.387a20.253 20.253 0 0 1 2.821-1.222m5.778 7.021c-.509.399-1.404 1.67-1.601 2.485c-.191.793.02 3.381.183 5.026L4.12 35.062v-5.214l3.173-.258a9.804 9.804 0 0 0 2.887 1.74l.298.117l.308-.088c.012-.003.276-.076.738-.186c.049.172.1.344.145.52l.264 1.028l.994-.395c.017-.006.602-.233 1.607-.53c-.043.026-.092.054-.129.082m6.389 15.257s-.509-2.401-.878-2.401c-.03 0-.061.017-.089.053c-.333.417-1.143 4.287-1.143 4.287s-.366-2.569-.798-2.569c-.042 0-.083.023-.125.074c-1.04 1.262-2.124 4.476-2.124 4.476s-1.313-5.22-1.042-7.374c.284-2.258 1.529-6.589 2.452-8.42c.444-.883 1.553-2.587 2.274-2.803c6.59-1.971 20.711-3.617 27.643-3.617h.213c.312.003 1.055 1.006 1.055 1.006s1.088-.7 1.631-.7c.061 0 .115.009.16.029c.208.091.595.95.595.95s1.139.085 1.469.339c.283.214.894 1.353.894 1.353s-1.645-.343-2.069-.355a29.067 29.067 0 0 0-.852-.012c-7.041 0-19.966 2.253-26.271 4.983c-.688.296-1.706 2.112-1.99 3.104c-.415 1.46-1.005 7.597-1.005 7.597m37.996-7.428l-35.001 4.955l-1.699-.829c.199-1.689.432-3.41.612-4.042c.199-.699.767-1.697 1.175-2.208l34.913-3.322v5.446" fill="#ff0000"/></g></svg>3 Quartos</li>
+
+
+
+                  <li class="bathroom"><svg fill="#ff0000" height="196px" width="196px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-153.6 -153.6 819.20 819.20" xml:space="preserve" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-153.6" y="-153.6" width="819.20" height="819.20" rx="409.6" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M484.63,360.454c-2.772,0.355-5.591,0.559-8.458,0.559H35.824v0.001c-2.867,0-5.686-0.204-8.458-0.559 c10.188,37.581,37.471,68.196,72.953,82.949L81.343,476.27l26.341,15.209L130.65,451.7c5.748,0.811,11.617,1.241,17.585,1.241 H363.76c5.968,0,11.837-0.429,17.585-1.241l22.967,39.779l26.341-15.209l-18.976-32.868 C447.159,428.65,474.442,398.034,484.63,360.454z"/> </g> </g> <g> <g> <path d="M476.176,258.947H78.567V228.53V79.722c0-15.872,12.912-28.784,28.784-28.784s28.784,12.912,28.784,28.784V90.04h-22.419 v30.417h75.254V90.04h-22.419V79.722c0-32.644-26.557-59.201-59.201-59.201c-32.644,0-59.201,26.557-59.201,59.201V228.53v30.417 H35.824C16.071,258.947,0,275.018,0,294.772s16.071,35.824,35.824,35.824h440.351c19.753,0,35.824-16.07,35.824-35.824 S495.929,258.947,476.176,258.947z"/> </g> </g> </g></svg>4 Banheiros</li>
+
+
+
+                  <li class="meters"><svg fill="#ff0000" width="181px" height="181px" viewBox="-56.32 -56.32 368.64 368.64" id="Flat" xmlns="http://www.w3.org/2000/svg" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-56.32" y="-56.32" width="368.64" height="368.64" rx="184.32" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <g> <path d="M108,36H48A12,12,0,0,0,36,48v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V48A12,12,0,0,0,108,36ZM96,96H60V60H96Z"/> <path d="M208,36H148a12,12,0,0,0-12,12v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V48A12,12,0,0,0,208,36ZM196,96H160V60h36Z"/> <path d="M108,136H48a12,12,0,0,0-12,12v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V148A12,12,0,0,0,108,136ZM96,196H60V160H96Z"/> <path d="M208,136H148a12,12,0,0,0-12,12v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V148A12,12,0,0,0,208,136Zm-12,60H160V160h36Z"/> </g> </g></svg>340m²</li>
+
+
+
+                  <li class="car"><svg width="184px" height="184px" viewBox="-5.04 -5.04 34.08 34.08" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-5.04" y="-5.04" width="34.08" height="34.08" rx="17.04" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <path d="M3 8L5.72187 10.2682C5.90158 10.418 6.12811 10.5 6.36205 10.5H17.6379C17.8719 10.5 18.0984 10.418 18.2781 10.2682L21 8M6.5 14H6.51M17.5 14H17.51M8.16065 4.5H15.8394C16.5571 4.5 17.2198 4.88457 17.5758 5.50772L20.473 10.5777C20.8183 11.1821 21 11.8661 21 12.5623V18.5C21 19.0523 20.5523 19.5 20 19.5H19C18.4477 19.5 18 19.0523 18 18.5V17.5H6V18.5C6 19.0523 5.55228 19.5 5 19.5H4C3.44772 19.5 3 19.0523 3 18.5V12.5623C3 11.8661 3.18166 11.1821 3.52703 10.5777L6.42416 5.50772C6.78024 4.88457 7.44293 4.5 8.16065 4.5ZM7 14C7 14.2761 6.77614 14.5 6.5 14.5C6.22386 14.5 6 14.2761 6 14C6 13.7239 6.22386 13.5 6.5 13.5C6.77614 13.5 7 13.7239 7 14ZM18 14C18 14.2761 17.7761 14.5 17.5 14.5C17.2239 14.5 17 14.2761 17 14C17 13.7239 17.2239 13.5 17.5 13.5C17.7761 13.5 18 13.7239 18 14Z" stroke="#ff0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g></svg>2 Vagas</li>
+                </ul>
+              </div>
+              <div>
+                <p class="condominium_price">R$ 50.000,00<button class="btn_message_one"><a href="#">Enviar mensagem</a></button></p>
+              </div>
+            </div>
+
+
+
+
+
+
+            <div class="apartament">
+              <div class="img_apartament">
+                <img src="Projeto/IMG/Casa2.jpg" alt="">
+              </div>
+
+              <div class="inform_apartament">
+                <div class="address">
+                  <span class="Endereço">Avenida Mofarrej, 275, Vila Leopoldina, São Paulo - SP</span>
+                </div>
+                <div class="apartament_description">Casa de Condomínio com 3 Quartos e 4 Banheiros <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"><path d="M12.39 20.87a.696.696 0 0 1-.78 0C9.764 19.637 2 14.15 2 8.973c0-6.68 7.85-7.75 10-3.25 2.15-4.5 10-3.43 10 3.25 0 5.178-7.764 10.664-9.61 11.895z" fill="#ffffff"/></g></svg></div>
+              </div>
+
+              <div class="condominium_items">
+                <ul>
+                  <li class="bed"><svg width="179px" height="179px" viewBox="-13.44 -13.44 90.88 90.88" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--emojione-monotone" preserveAspectRatio="xMidYMid meet" fill="#ff0000" stroke="#ff0000" stroke-width="0.00064"><g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(0,0), scale(1)"><rect x="-13.44" y="-13.44" width="90.88" height="90.88" rx="45.44" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.128"/><g id="SVGRepo_iconCarrier"><path d="M60.026 39.445v-5.854l-5.82-1.464l-.397-.744c-.469-.875-.856-1.433-1.154-1.657c-.33-.255-.889-.394-1.42-.468c-.401-.745-.676-.864-.835-.934a1.345 1.345 0 0 0-.536-.106c-.438 0-.967.208-1.408.43c-.679-.729-1.063-.734-1.267-.736h-.224c-2.12 0-4.896.154-7.912.42l-.798-1.016c-.023-.03-2.393-3.065-3.031-5.41l-.116-.425v-8.232s-2.338.345-3.488-2.554h-1.031s-.27.111-.725.168c-.922-.105-2.119-.521-3.388-1.719C23.145 6 19.965 6 19.965 6h-1.031s-3.558 0-7.28 3.145c-1.356 1.146-2.659 1.637-3.567 1.745c-.716-.032-1.155-.194-1.155-.194H5.9C4.615 13.594 2 13.249 2 13.249v28.222h.412v2.935H3.81l.635-2.028l9.599 6.145c.28 1.771 1.5 5.656 1.5 5.656s1.313-3.081 1.521-3.722l.958.612l.488 2.483l.572-1.805l3.075 1.971l.375 3.903l.552.379l1.331-.379l.637-3.64l34.016-5.672l.843 3.444l1.675-.276V47.89l.413-.07v-7.453l-1.974-.922M30.905 21.904c2.139 0 3.413.245 3.413.245c.697 2.559 3.197 5.738 3.197 5.738l-.311-.002c-6.207 0-10.847 1.852-10.847 1.852c-1.005-3.917-3.158-6.85-3.158-6.85a31.578 31.578 0 0 1 7.706-.983m-13.24.798c2.39 0 3.813.273 3.813.273c.78 2.862 3.574 6.417 3.574 6.417a35.864 35.864 0 0 0-.328-.002c-6.951 0-12.148 2.073-12.148 2.073c-1.124-4.382-3.534-7.661-3.534-7.661c3.45-.872 6.439-1.1 8.623-1.1m-9.038 2.155a24.905 24.905 0 0 1 2.621 5.425c-.463.112-.723.184-.723.184c-3.618-1.418-4.719-4.387-4.719-4.387a20.253 20.253 0 0 1 2.821-1.222m5.778 7.021c-.509.399-1.404 1.67-1.601 2.485c-.191.793.02 3.381.183 5.026L4.12 35.062v-5.214l3.173-.258a9.804 9.804 0 0 0 2.887 1.74l.298.117l.308-.088c.012-.003.276-.076.738-.186c.049.172.1.344.145.52l.264 1.028l.994-.395c.017-.006.602-.233 1.607-.53c-.043.026-.092.054-.129.082m6.389 15.257s-.509-2.401-.878-2.401c-.03 0-.061.017-.089.053c-.333.417-1.143 4.287-1.143 4.287s-.366-2.569-.798-2.569c-.042 0-.083.023-.125.074c-1.04 1.262-2.124 4.476-2.124 4.476s-1.313-5.22-1.042-7.374c.284-2.258 1.529-6.589 2.452-8.42c.444-.883 1.553-2.587 2.274-2.803c6.59-1.971 20.711-3.617 27.643-3.617h.213c.312.003 1.055 1.006 1.055 1.006s1.088-.7 1.631-.7c.061 0 .115.009.16.029c.208.091.595.95.595.95s1.139.085 1.469.339c.283.214.894 1.353.894 1.353s-1.645-.343-2.069-.355a29.067 29.067 0 0 0-.852-.012c-7.041 0-19.966 2.253-26.271 4.983c-.688.296-1.706 2.112-1.99 3.104c-.415 1.46-1.005 7.597-1.005 7.597m37.996-7.428l-35.001 4.955l-1.699-.829c.199-1.689.432-3.41.612-4.042c.199-.699.767-1.697 1.175-2.208l34.913-3.322v5.446" fill="#ff0000"/></g></svg>3 Quartos</li>
+
+
+
+                  <li class="bathroom"><svg fill="#ff0000" height="196px" width="196px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-153.6 -153.6 819.20 819.20" xml:space="preserve" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-153.6" y="-153.6" width="819.20" height="819.20" rx="409.6" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M484.63,360.454c-2.772,0.355-5.591,0.559-8.458,0.559H35.824v0.001c-2.867,0-5.686-0.204-8.458-0.559 c10.188,37.581,37.471,68.196,72.953,82.949L81.343,476.27l26.341,15.209L130.65,451.7c5.748,0.811,11.617,1.241,17.585,1.241 H363.76c5.968,0,11.837-0.429,17.585-1.241l22.967,39.779l26.341-15.209l-18.976-32.868 C447.159,428.65,474.442,398.034,484.63,360.454z"/> </g> </g> <g> <g> <path d="M476.176,258.947H78.567V228.53V79.722c0-15.872,12.912-28.784,28.784-28.784s28.784,12.912,28.784,28.784V90.04h-22.419 v30.417h75.254V90.04h-22.419V79.722c0-32.644-26.557-59.201-59.201-59.201c-32.644,0-59.201,26.557-59.201,59.201V228.53v30.417 H35.824C16.071,258.947,0,275.018,0,294.772s16.071,35.824,35.824,35.824h440.351c19.753,0,35.824-16.07,35.824-35.824 S495.929,258.947,476.176,258.947z"/> </g> </g> </g></svg>4 Banheiros</li>
+
+
+
+                  <li class="meters"><svg fill="#ff0000" width="181px" height="181px" viewBox="-56.32 -56.32 368.64 368.64" id="Flat" xmlns="http://www.w3.org/2000/svg" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-56.32" y="-56.32" width="368.64" height="368.64" rx="184.32" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <g> <path d="M108,36H48A12,12,0,0,0,36,48v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V48A12,12,0,0,0,108,36ZM96,96H60V60H96Z"/> <path d="M208,36H148a12,12,0,0,0-12,12v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V48A12,12,0,0,0,208,36ZM196,96H160V60h36Z"/> <path d="M108,136H48a12,12,0,0,0-12,12v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V148A12,12,0,0,0,108,136ZM96,196H60V160H96Z"/> <path d="M208,136H148a12,12,0,0,0-12,12v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V148A12,12,0,0,0,208,136Zm-12,60H160V160h36Z"/> </g> </g></svg>340m²</li>
+
+
+
+                  <li class="car"><svg width="184px" height="184px" viewBox="-5.04 -5.04 34.08 34.08" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-5.04" y="-5.04" width="34.08" height="34.08" rx="17.04" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <path d="M3 8L5.72187 10.2682C5.90158 10.418 6.12811 10.5 6.36205 10.5H17.6379C17.8719 10.5 18.0984 10.418 18.2781 10.2682L21 8M6.5 14H6.51M17.5 14H17.51M8.16065 4.5H15.8394C16.5571 4.5 17.2198 4.88457 17.5758 5.50772L20.473 10.5777C20.8183 11.1821 21 11.8661 21 12.5623V18.5C21 19.0523 20.5523 19.5 20 19.5H19C18.4477 19.5 18 19.0523 18 18.5V17.5H6V18.5C6 19.0523 5.55228 19.5 5 19.5H4C3.44772 19.5 3 19.0523 3 18.5V12.5623C3 11.8661 3.18166 11.1821 3.52703 10.5777L6.42416 5.50772C6.78024 4.88457 7.44293 4.5 8.16065 4.5ZM7 14C7 14.2761 6.77614 14.5 6.5 14.5C6.22386 14.5 6 14.2761 6 14C6 13.7239 6.22386 13.5 6.5 13.5C6.77614 13.5 7 13.7239 7 14ZM18 14C18 14.2761 17.7761 14.5 17.5 14.5C17.2239 14.5 17 14.2761 17 14C17 13.7239 17.2239 13.5 17.5 13.5C17.7761 13.5 18 13.7239 18 14Z" stroke="#ff0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g></svg>2 Vagas</li>
+                </ul>
+              </div>
+              <div>
+                <p class="condominium_price">R$ 50.000,00<button class="btn_message"><a href="#">Enviar mensagem</a></button></p>
+              </div>
+            </div>
+
+
+
+
+
+            <div class="apartament">
+              <div class="img_apartament">
+                <img src="Projeto/IMG/Casa3.jpg" alt="">
+              </div>
+
+              <div class="inform_apartament">
+                <div class="address">
+                  <span class="Endereço">Avenida Mofarrej, 275, Vila Leopoldina, São Paulo - SP</span>
+                </div>
+                <div class="apartament_description">Casa de Condomínio com 3 Quartos e 4 Banheiros <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"><path d="M12.39 20.87a.696.696 0 0 1-.78 0C9.764 19.637 2 14.15 2 8.973c0-6.68 7.85-7.75 10-3.25 2.15-4.5 10-3.43 10 3.25 0 5.178-7.764 10.664-9.61 11.895z" fill="#ffffff"/></g></svg></div>
+              </div>
+
+              <div class="condominium_items">
+                <ul>
+                  <li class="bed"><svg width="179px" height="179px" viewBox="-13.44 -13.44 90.88 90.88" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--emojione-monotone" preserveAspectRatio="xMidYMid meet" fill="#ff0000" stroke="#ff0000" stroke-width="0.00064"><g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(0,0), scale(1)"><rect x="-13.44" y="-13.44" width="90.88" height="90.88" rx="45.44" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.128"/><g id="SVGRepo_iconCarrier"><path d="M60.026 39.445v-5.854l-5.82-1.464l-.397-.744c-.469-.875-.856-1.433-1.154-1.657c-.33-.255-.889-.394-1.42-.468c-.401-.745-.676-.864-.835-.934a1.345 1.345 0 0 0-.536-.106c-.438 0-.967.208-1.408.43c-.679-.729-1.063-.734-1.267-.736h-.224c-2.12 0-4.896.154-7.912.42l-.798-1.016c-.023-.03-2.393-3.065-3.031-5.41l-.116-.425v-8.232s-2.338.345-3.488-2.554h-1.031s-.27.111-.725.168c-.922-.105-2.119-.521-3.388-1.719C23.145 6 19.965 6 19.965 6h-1.031s-3.558 0-7.28 3.145c-1.356 1.146-2.659 1.637-3.567 1.745c-.716-.032-1.155-.194-1.155-.194H5.9C4.615 13.594 2 13.249 2 13.249v28.222h.412v2.935H3.81l.635-2.028l9.599 6.145c.28 1.771 1.5 5.656 1.5 5.656s1.313-3.081 1.521-3.722l.958.612l.488 2.483l.572-1.805l3.075 1.971l.375 3.903l.552.379l1.331-.379l.637-3.64l34.016-5.672l.843 3.444l1.675-.276V47.89l.413-.07v-7.453l-1.974-.922M30.905 21.904c2.139 0 3.413.245 3.413.245c.697 2.559 3.197 5.738 3.197 5.738l-.311-.002c-6.207 0-10.847 1.852-10.847 1.852c-1.005-3.917-3.158-6.85-3.158-6.85a31.578 31.578 0 0 1 7.706-.983m-13.24.798c2.39 0 3.813.273 3.813.273c.78 2.862 3.574 6.417 3.574 6.417a35.864 35.864 0 0 0-.328-.002c-6.951 0-12.148 2.073-12.148 2.073c-1.124-4.382-3.534-7.661-3.534-7.661c3.45-.872 6.439-1.1 8.623-1.1m-9.038 2.155a24.905 24.905 0 0 1 2.621 5.425c-.463.112-.723.184-.723.184c-3.618-1.418-4.719-4.387-4.719-4.387a20.253 20.253 0 0 1 2.821-1.222m5.778 7.021c-.509.399-1.404 1.67-1.601 2.485c-.191.793.02 3.381.183 5.026L4.12 35.062v-5.214l3.173-.258a9.804 9.804 0 0 0 2.887 1.74l.298.117l.308-.088c.012-.003.276-.076.738-.186c.049.172.1.344.145.52l.264 1.028l.994-.395c.017-.006.602-.233 1.607-.53c-.043.026-.092.054-.129.082m6.389 15.257s-.509-2.401-.878-2.401c-.03 0-.061.017-.089.053c-.333.417-1.143 4.287-1.143 4.287s-.366-2.569-.798-2.569c-.042 0-.083.023-.125.074c-1.04 1.262-2.124 4.476-2.124 4.476s-1.313-5.22-1.042-7.374c.284-2.258 1.529-6.589 2.452-8.42c.444-.883 1.553-2.587 2.274-2.803c6.59-1.971 20.711-3.617 27.643-3.617h.213c.312.003 1.055 1.006 1.055 1.006s1.088-.7 1.631-.7c.061 0 .115.009.16.029c.208.091.595.95.595.95s1.139.085 1.469.339c.283.214.894 1.353.894 1.353s-1.645-.343-2.069-.355a29.067 29.067 0 0 0-.852-.012c-7.041 0-19.966 2.253-26.271 4.983c-.688.296-1.706 2.112-1.99 3.104c-.415 1.46-1.005 7.597-1.005 7.597m37.996-7.428l-35.001 4.955l-1.699-.829c.199-1.689.432-3.41.612-4.042c.199-.699.767-1.697 1.175-2.208l34.913-3.322v5.446" fill="#ff0000"/></g></svg>3 Quartos</li>
+
+
+
+                  <li class="bathroom"><svg fill="#ff0000" height="196px" width="196px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-153.6 -153.6 819.20 819.20" xml:space="preserve" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-153.6" y="-153.6" width="819.20" height="819.20" rx="409.6" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M484.63,360.454c-2.772,0.355-5.591,0.559-8.458,0.559H35.824v0.001c-2.867,0-5.686-0.204-8.458-0.559 c10.188,37.581,37.471,68.196,72.953,82.949L81.343,476.27l26.341,15.209L130.65,451.7c5.748,0.811,11.617,1.241,17.585,1.241 H363.76c5.968,0,11.837-0.429,17.585-1.241l22.967,39.779l26.341-15.209l-18.976-32.868 C447.159,428.65,474.442,398.034,484.63,360.454z"/> </g> </g> <g> <g> <path d="M476.176,258.947H78.567V228.53V79.722c0-15.872,12.912-28.784,28.784-28.784s28.784,12.912,28.784,28.784V90.04h-22.419 v30.417h75.254V90.04h-22.419V79.722c0-32.644-26.557-59.201-59.201-59.201c-32.644,0-59.201,26.557-59.201,59.201V228.53v30.417 H35.824C16.071,258.947,0,275.018,0,294.772s16.071,35.824,35.824,35.824h440.351c19.753,0,35.824-16.07,35.824-35.824 S495.929,258.947,476.176,258.947z"/> </g> </g> </g></svg>4 Banheiros</li>
+
+
+
+                  <li class="meters"><svg fill="#ff0000" width="181px" height="181px" viewBox="-56.32 -56.32 368.64 368.64" id="Flat" xmlns="http://www.w3.org/2000/svg" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-56.32" y="-56.32" width="368.64" height="368.64" rx="184.32" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <g> <path d="M108,36H48A12,12,0,0,0,36,48v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V48A12,12,0,0,0,108,36ZM96,96H60V60H96Z"/> <path d="M208,36H148a12,12,0,0,0-12,12v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V48A12,12,0,0,0,208,36ZM196,96H160V60h36Z"/> <path d="M108,136H48a12,12,0,0,0-12,12v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V148A12,12,0,0,0,108,136ZM96,196H60V160H96Z"/> <path d="M208,136H148a12,12,0,0,0-12,12v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V148A12,12,0,0,0,208,136Zm-12,60H160V160h36Z"/> </g> </g></svg>340m²</li>
+
+
+
+                  <li class="car"><svg width="184px" height="184px" viewBox="-5.04 -5.04 34.08 34.08" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-5.04" y="-5.04" width="34.08" height="34.08" rx="17.04" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <path d="M3 8L5.72187 10.2682C5.90158 10.418 6.12811 10.5 6.36205 10.5H17.6379C17.8719 10.5 18.0984 10.418 18.2781 10.2682L21 8M6.5 14H6.51M17.5 14H17.51M8.16065 4.5H15.8394C16.5571 4.5 17.2198 4.88457 17.5758 5.50772L20.473 10.5777C20.8183 11.1821 21 11.8661 21 12.5623V18.5C21 19.0523 20.5523 19.5 20 19.5H19C18.4477 19.5 18 19.0523 18 18.5V17.5H6V18.5C6 19.0523 5.55228 19.5 5 19.5H4C3.44772 19.5 3 19.0523 3 18.5V12.5623C3 11.8661 3.18166 11.1821 3.52703 10.5777L6.42416 5.50772C6.78024 4.88457 7.44293 4.5 8.16065 4.5ZM7 14C7 14.2761 6.77614 14.5 6.5 14.5C6.22386 14.5 6 14.2761 6 14C6 13.7239 6.22386 13.5 6.5 13.5C6.77614 13.5 7 13.7239 7 14ZM18 14C18 14.2761 17.7761 14.5 17.5 14.5C17.2239 14.5 17 14.2761 17 14C17 13.7239 17.2239 13.5 17.5 13.5C17.7761 13.5 18 13.7239 18 14Z" stroke="#ff0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g></svg>2 Vagas</li>
+                </ul>
+              </div>
+              <div>
+                <p class="condominium_price">R$ 50.000,00<button class="btn_message"><a href="#">Enviar mensagem</a></button></p>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="apartament">
+              <div class="img_apartament">
+                <img src="Projeto/IMG/Casa4.jpg" alt="">
+              </div>
+
+              <div class="inform_apartament">
+                <div class="address">
+                  <span class="Endereço">Avenida Mofarrej, 275, Vila Leopoldina, São Paulo - SP</span>
+                </div>
+                <div class="apartament_description">Casa de Condomínio com 3 Quartos e 4 Banheiros <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"><path d="M12.39 20.87a.696.696 0 0 1-.78 0C9.764 19.637 2 14.15 2 8.973c0-6.68 7.85-7.75 10-3.25 2.15-4.5 10-3.43 10 3.25 0 5.178-7.764 10.664-9.61 11.895z" fill="#ffffff"/></g></svg></div>
+              </div>
+
+              <div class="condominium_items">
+                <ul>
+                  <li class="bed"><svg width="179px" height="179px" viewBox="-13.44 -13.44 90.88 90.88" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--emojione-monotone" preserveAspectRatio="xMidYMid meet" fill="#ff0000" stroke="#ff0000" stroke-width="0.00064"><g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(0,0), scale(1)"><rect x="-13.44" y="-13.44" width="90.88" height="90.88" rx="45.44" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.128"/><g id="SVGRepo_iconCarrier"><path d="M60.026 39.445v-5.854l-5.82-1.464l-.397-.744c-.469-.875-.856-1.433-1.154-1.657c-.33-.255-.889-.394-1.42-.468c-.401-.745-.676-.864-.835-.934a1.345 1.345 0 0 0-.536-.106c-.438 0-.967.208-1.408.43c-.679-.729-1.063-.734-1.267-.736h-.224c-2.12 0-4.896.154-7.912.42l-.798-1.016c-.023-.03-2.393-3.065-3.031-5.41l-.116-.425v-8.232s-2.338.345-3.488-2.554h-1.031s-.27.111-.725.168c-.922-.105-2.119-.521-3.388-1.719C23.145 6 19.965 6 19.965 6h-1.031s-3.558 0-7.28 3.145c-1.356 1.146-2.659 1.637-3.567 1.745c-.716-.032-1.155-.194-1.155-.194H5.9C4.615 13.594 2 13.249 2 13.249v28.222h.412v2.935H3.81l.635-2.028l9.599 6.145c.28 1.771 1.5 5.656 1.5 5.656s1.313-3.081 1.521-3.722l.958.612l.488 2.483l.572-1.805l3.075 1.971l.375 3.903l.552.379l1.331-.379l.637-3.64l34.016-5.672l.843 3.444l1.675-.276V47.89l.413-.07v-7.453l-1.974-.922M30.905 21.904c2.139 0 3.413.245 3.413.245c.697 2.559 3.197 5.738 3.197 5.738l-.311-.002c-6.207 0-10.847 1.852-10.847 1.852c-1.005-3.917-3.158-6.85-3.158-6.85a31.578 31.578 0 0 1 7.706-.983m-13.24.798c2.39 0 3.813.273 3.813.273c.78 2.862 3.574 6.417 3.574 6.417a35.864 35.864 0 0 0-.328-.002c-6.951 0-12.148 2.073-12.148 2.073c-1.124-4.382-3.534-7.661-3.534-7.661c3.45-.872 6.439-1.1 8.623-1.1m-9.038 2.155a24.905 24.905 0 0 1 2.621 5.425c-.463.112-.723.184-.723.184c-3.618-1.418-4.719-4.387-4.719-4.387a20.253 20.253 0 0 1 2.821-1.222m5.778 7.021c-.509.399-1.404 1.67-1.601 2.485c-.191.793.02 3.381.183 5.026L4.12 35.062v-5.214l3.173-.258a9.804 9.804 0 0 0 2.887 1.74l.298.117l.308-.088c.012-.003.276-.076.738-.186c.049.172.1.344.145.52l.264 1.028l.994-.395c.017-.006.602-.233 1.607-.53c-.043.026-.092.054-.129.082m6.389 15.257s-.509-2.401-.878-2.401c-.03 0-.061.017-.089.053c-.333.417-1.143 4.287-1.143 4.287s-.366-2.569-.798-2.569c-.042 0-.083.023-.125.074c-1.04 1.262-2.124 4.476-2.124 4.476s-1.313-5.22-1.042-7.374c.284-2.258 1.529-6.589 2.452-8.42c.444-.883 1.553-2.587 2.274-2.803c6.59-1.971 20.711-3.617 27.643-3.617h.213c.312.003 1.055 1.006 1.055 1.006s1.088-.7 1.631-.7c.061 0 .115.009.16.029c.208.091.595.95.595.95s1.139.085 1.469.339c.283.214.894 1.353.894 1.353s-1.645-.343-2.069-.355a29.067 29.067 0 0 0-.852-.012c-7.041 0-19.966 2.253-26.271 4.983c-.688.296-1.706 2.112-1.99 3.104c-.415 1.46-1.005 7.597-1.005 7.597m37.996-7.428l-35.001 4.955l-1.699-.829c.199-1.689.432-3.41.612-4.042c.199-.699.767-1.697 1.175-2.208l34.913-3.322v5.446" fill="#ff0000"/></g></svg>3 Quartos</li>
+
+
+
+                  <li class="bathroom"><svg fill="#ff0000" height="196px" width="196px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-153.6 -153.6 819.20 819.20" xml:space="preserve" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-153.6" y="-153.6" width="819.20" height="819.20" rx="409.6" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M484.63,360.454c-2.772,0.355-5.591,0.559-8.458,0.559H35.824v0.001c-2.867,0-5.686-0.204-8.458-0.559 c10.188,37.581,37.471,68.196,72.953,82.949L81.343,476.27l26.341,15.209L130.65,451.7c5.748,0.811,11.617,1.241,17.585,1.241 H363.76c5.968,0,11.837-0.429,17.585-1.241l22.967,39.779l26.341-15.209l-18.976-32.868 C447.159,428.65,474.442,398.034,484.63,360.454z"/> </g> </g> <g> <g> <path d="M476.176,258.947H78.567V228.53V79.722c0-15.872,12.912-28.784,28.784-28.784s28.784,12.912,28.784,28.784V90.04h-22.419 v30.417h75.254V90.04h-22.419V79.722c0-32.644-26.557-59.201-59.201-59.201c-32.644,0-59.201,26.557-59.201,59.201V228.53v30.417 H35.824C16.071,258.947,0,275.018,0,294.772s16.071,35.824,35.824,35.824h440.351c19.753,0,35.824-16.07,35.824-35.824 S495.929,258.947,476.176,258.947z"/> </g> </g> </g></svg>4 Banheiros</li>
+
+
+
+                  <li class="meters"><svg fill="#ff0000" width="181px" height="181px" viewBox="-56.32 -56.32 368.64 368.64" id="Flat" xmlns="http://www.w3.org/2000/svg" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-56.32" y="-56.32" width="368.64" height="368.64" rx="184.32" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <g> <path d="M108,36H48A12,12,0,0,0,36,48v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V48A12,12,0,0,0,108,36ZM96,96H60V60H96Z"/> <path d="M208,36H148a12,12,0,0,0-12,12v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V48A12,12,0,0,0,208,36ZM196,96H160V60h36Z"/> <path d="M108,136H48a12,12,0,0,0-12,12v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V148A12,12,0,0,0,108,136ZM96,196H60V160H96Z"/> <path d="M208,136H148a12,12,0,0,0-12,12v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V148A12,12,0,0,0,208,136Zm-12,60H160V160h36Z"/> </g> </g></svg>340m²</li>
+
+
+
+                  <li class="car"><svg width="184px" height="184px" viewBox="-5.04 -5.04 34.08 34.08" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-5.04" y="-5.04" width="34.08" height="34.08" rx="17.04" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <path d="M3 8L5.72187 10.2682C5.90158 10.418 6.12811 10.5 6.36205 10.5H17.6379C17.8719 10.5 18.0984 10.418 18.2781 10.2682L21 8M6.5 14H6.51M17.5 14H17.51M8.16065 4.5H15.8394C16.5571 4.5 17.2198 4.88457 17.5758 5.50772L20.473 10.5777C20.8183 11.1821 21 11.8661 21 12.5623V18.5C21 19.0523 20.5523 19.5 20 19.5H19C18.4477 19.5 18 19.0523 18 18.5V17.5H6V18.5C6 19.0523 5.55228 19.5 5 19.5H4C3.44772 19.5 3 19.0523 3 18.5V12.5623C3 11.8661 3.18166 11.1821 3.52703 10.5777L6.42416 5.50772C6.78024 4.88457 7.44293 4.5 8.16065 4.5ZM7 14C7 14.2761 6.77614 14.5 6.5 14.5C6.22386 14.5 6 14.2761 6 14C6 13.7239 6.22386 13.5 6.5 13.5C6.77614 13.5 7 13.7239 7 14ZM18 14C18 14.2761 17.7761 14.5 17.5 14.5C17.2239 14.5 17 14.2761 17 14C17 13.7239 17.2239 13.5 17.5 13.5C17.7761 13.5 18 13.7239 18 14Z" stroke="#ff0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g></svg>2 Vagas</li>
+                </ul>
+              </div>
+              <div>
+                <p class="condominium_price">R$ 50.000,00<button class="btn_message"><a href="#">Enviar mensagem</a></button></p>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+            <div class="apartament">
+              <div class="img_apartament">
+                <img src="Projeto/IMG/Casa5.jpg" alt="">
+              </div>
+
+              <div class="inform_apartament">
+                <div class="address">
+                  <span class="Endereço">Avenida Mofarrej, 275, Vila Leopoldina, São Paulo - SP</span>
+                </div>
+                <div class="apartament_description">Casa de Condomínio com 3 Quartos e 4 Banheiros <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"><path d="M12.39 20.87a.696.696 0 0 1-.78 0C9.764 19.637 2 14.15 2 8.973c0-6.68 7.85-7.75 10-3.25 2.15-4.5 10-3.43 10 3.25 0 5.178-7.764 10.664-9.61 11.895z" fill="#ffffff"/></g></svg></div>
+              </div>
+
+              <div class="condominium_items">
+                <ul>
+                  <li class="bed"><svg width="179px" height="179px" viewBox="-13.44 -13.44 90.88 90.88" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--emojione-monotone" preserveAspectRatio="xMidYMid meet" fill="#ff0000" stroke="#ff0000" stroke-width="0.00064"><g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(0,0), scale(1)"><rect x="-13.44" y="-13.44" width="90.88" height="90.88" rx="45.44" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.128"/><g id="SVGRepo_iconCarrier"><path d="M60.026 39.445v-5.854l-5.82-1.464l-.397-.744c-.469-.875-.856-1.433-1.154-1.657c-.33-.255-.889-.394-1.42-.468c-.401-.745-.676-.864-.835-.934a1.345 1.345 0 0 0-.536-.106c-.438 0-.967.208-1.408.43c-.679-.729-1.063-.734-1.267-.736h-.224c-2.12 0-4.896.154-7.912.42l-.798-1.016c-.023-.03-2.393-3.065-3.031-5.41l-.116-.425v-8.232s-2.338.345-3.488-2.554h-1.031s-.27.111-.725.168c-.922-.105-2.119-.521-3.388-1.719C23.145 6 19.965 6 19.965 6h-1.031s-3.558 0-7.28 3.145c-1.356 1.146-2.659 1.637-3.567 1.745c-.716-.032-1.155-.194-1.155-.194H5.9C4.615 13.594 2 13.249 2 13.249v28.222h.412v2.935H3.81l.635-2.028l9.599 6.145c.28 1.771 1.5 5.656 1.5 5.656s1.313-3.081 1.521-3.722l.958.612l.488 2.483l.572-1.805l3.075 1.971l.375 3.903l.552.379l1.331-.379l.637-3.64l34.016-5.672l.843 3.444l1.675-.276V47.89l.413-.07v-7.453l-1.974-.922M30.905 21.904c2.139 0 3.413.245 3.413.245c.697 2.559 3.197 5.738 3.197 5.738l-.311-.002c-6.207 0-10.847 1.852-10.847 1.852c-1.005-3.917-3.158-6.85-3.158-6.85a31.578 31.578 0 0 1 7.706-.983m-13.24.798c2.39 0 3.813.273 3.813.273c.78 2.862 3.574 6.417 3.574 6.417a35.864 35.864 0 0 0-.328-.002c-6.951 0-12.148 2.073-12.148 2.073c-1.124-4.382-3.534-7.661-3.534-7.661c3.45-.872 6.439-1.1 8.623-1.1m-9.038 2.155a24.905 24.905 0 0 1 2.621 5.425c-.463.112-.723.184-.723.184c-3.618-1.418-4.719-4.387-4.719-4.387a20.253 20.253 0 0 1 2.821-1.222m5.778 7.021c-.509.399-1.404 1.67-1.601 2.485c-.191.793.02 3.381.183 5.026L4.12 35.062v-5.214l3.173-.258a9.804 9.804 0 0 0 2.887 1.74l.298.117l.308-.088c.012-.003.276-.076.738-.186c.049.172.1.344.145.52l.264 1.028l.994-.395c.017-.006.602-.233 1.607-.53c-.043.026-.092.054-.129.082m6.389 15.257s-.509-2.401-.878-2.401c-.03 0-.061.017-.089.053c-.333.417-1.143 4.287-1.143 4.287s-.366-2.569-.798-2.569c-.042 0-.083.023-.125.074c-1.04 1.262-2.124 4.476-2.124 4.476s-1.313-5.22-1.042-7.374c.284-2.258 1.529-6.589 2.452-8.42c.444-.883 1.553-2.587 2.274-2.803c6.59-1.971 20.711-3.617 27.643-3.617h.213c.312.003 1.055 1.006 1.055 1.006s1.088-.7 1.631-.7c.061 0 .115.009.16.029c.208.091.595.95.595.95s1.139.085 1.469.339c.283.214.894 1.353.894 1.353s-1.645-.343-2.069-.355a29.067 29.067 0 0 0-.852-.012c-7.041 0-19.966 2.253-26.271 4.983c-.688.296-1.706 2.112-1.99 3.104c-.415 1.46-1.005 7.597-1.005 7.597m37.996-7.428l-35.001 4.955l-1.699-.829c.199-1.689.432-3.41.612-4.042c.199-.699.767-1.697 1.175-2.208l34.913-3.322v5.446" fill="#ff0000"/></g></svg>3 Quartos</li>
+
+
+
+                  <li class="bathroom"><svg fill="#ff0000" height="196px" width="196px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-153.6 -153.6 819.20 819.20" xml:space="preserve" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-153.6" y="-153.6" width="819.20" height="819.20" rx="409.6" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M484.63,360.454c-2.772,0.355-5.591,0.559-8.458,0.559H35.824v0.001c-2.867,0-5.686-0.204-8.458-0.559 c10.188,37.581,37.471,68.196,72.953,82.949L81.343,476.27l26.341,15.209L130.65,451.7c5.748,0.811,11.617,1.241,17.585,1.241 H363.76c5.968,0,11.837-0.429,17.585-1.241l22.967,39.779l26.341-15.209l-18.976-32.868 C447.159,428.65,474.442,398.034,484.63,360.454z"/> </g> </g> <g> <g> <path d="M476.176,258.947H78.567V228.53V79.722c0-15.872,12.912-28.784,28.784-28.784s28.784,12.912,28.784,28.784V90.04h-22.419 v30.417h75.254V90.04h-22.419V79.722c0-32.644-26.557-59.201-59.201-59.201c-32.644,0-59.201,26.557-59.201,59.201V228.53v30.417 H35.824C16.071,258.947,0,275.018,0,294.772s16.071,35.824,35.824,35.824h440.351c19.753,0,35.824-16.07,35.824-35.824 S495.929,258.947,476.176,258.947z"/> </g> </g> </g></svg>4 Banheiros</li>
+
+
+
+                  <li class="meters"><svg fill="#ff0000" width="181px" height="181px" viewBox="-56.32 -56.32 368.64 368.64" id="Flat" xmlns="http://www.w3.org/2000/svg" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-56.32" y="-56.32" width="368.64" height="368.64" rx="184.32" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <g> <path d="M108,36H48A12,12,0,0,0,36,48v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V48A12,12,0,0,0,108,36ZM96,96H60V60H96Z"/> <path d="M208,36H148a12,12,0,0,0-12,12v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V48A12,12,0,0,0,208,36ZM196,96H160V60h36Z"/> <path d="M108,136H48a12,12,0,0,0-12,12v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V148A12,12,0,0,0,108,136ZM96,196H60V160H96Z"/> <path d="M208,136H148a12,12,0,0,0-12,12v60a12,12,0,0,0,12,12h60a12,12,0,0,0,12-12V148A12,12,0,0,0,208,136Zm-12,60H160V160h36Z"/> </g> </g></svg>340m²</li>
+
+
+
+                  <li class="car"><svg width="184px" height="184px" viewBox="-5.04 -5.04 34.08 34.08" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ff0000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-5.04" y="-5.04" width="34.08" height="34.08" rx="17.04" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <path d="M3 8L5.72187 10.2682C5.90158 10.418 6.12811 10.5 6.36205 10.5H17.6379C17.8719 10.5 18.0984 10.418 18.2781 10.2682L21 8M6.5 14H6.51M17.5 14H17.51M8.16065 4.5H15.8394C16.5571 4.5 17.2198 4.88457 17.5758 5.50772L20.473 10.5777C20.8183 11.1821 21 11.8661 21 12.5623V18.5C21 19.0523 20.5523 19.5 20 19.5H19C18.4477 19.5 18 19.0523 18 18.5V17.5H6V18.5C6 19.0523 5.55228 19.5 5 19.5H4C3.44772 19.5 3 19.0523 3 18.5V12.5623C3 11.8661 3.18166 11.1821 3.52703 10.5777L6.42416 5.50772C6.78024 4.88457 7.44293 4.5 8.16065 4.5ZM7 14C7 14.2761 6.77614 14.5 6.5 14.5C6.22386 14.5 6 14.2761 6 14C6 13.7239 6.22386 13.5 6.5 13.5C6.77614 13.5 7 13.7239 7 14ZM18 14C18 14.2761 17.7761 14.5 17.5 14.5C17.2239 14.5 17 14.2761 17 14C17 13.7239 17.2239 13.5 17.5 13.5C17.7761 13.5 18 13.7239 18 14Z" stroke="#ff0000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g></svg>2 Vagas</li>
+                </ul>
+              </div>
+              <div>
+                <p class="condominium_price">R$ 50.000,00<button class="btn_message"><a href="#">Enviar mensagem</a></button></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <footer class="site-footer">
+    <div class="site-footer__container">
+      <div class="site-footer__section-pages">
+        <span class="section__title">Minha Conta</span>
+        <ul class="site-footer__menu">
+          <li class="menu_item">Minha Conta</li>
+          <li class="menu_item">Comprar</li>
+          <li class="menu_item">Alugar</li>
+          <li class="menu_item">Anunciar</li>
+        </ul>
+        <span class="section__title_us">Sobre nós</span>
+        <ul class="site-footer__menu_us">
+          <li class="menu_item">Quem somos</li>
+          <li class="menu_item">Blog</li>
+          <li class="menu_item">Instagram</li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="service">
+      <span class="section__title_service">Atendimento</span>
+      <ul class="site-footer__menu_service">
+        <li class="menu_item"><svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M3.50002 12C3.50002 7.30558 7.3056 3.5 12 3.5C16.6944 3.5 20.5 7.30558 20.5 12C20.5 16.6944 16.6944 20.5 12 20.5C10.3278 20.5 8.77127 20.0182 7.45798 19.1861C7.21357 19.0313 6.91408 18.9899 6.63684 19.0726L3.75769 19.9319L4.84173 17.3953C4.96986 17.0955 4.94379 16.7521 4.77187 16.4751C3.9657 15.176 3.50002 13.6439 3.50002 12ZM12 1.5C6.20103 1.5 1.50002 6.20101 1.50002 12C1.50002 13.8381 1.97316 15.5683 2.80465 17.0727L1.08047 21.107C0.928048 21.4637 0.99561 21.8763 1.25382 22.1657C1.51203 22.4552 1.91432 22.5692 2.28599 22.4582L6.78541 21.1155C8.32245 21.9965 10.1037 22.5 12 22.5C17.799 22.5 22.5 17.799 22.5 12C22.5 6.20101 17.799 1.5 12 1.5ZM14.2925 14.1824L12.9783 15.1081C12.3628 14.7575 11.6823 14.2681 10.9997 13.5855C10.2901 12.8759 9.76402 12.1433 9.37612 11.4713L10.2113 10.7624C10.5697 10.4582 10.6678 9.94533 10.447 9.53028L9.38284 7.53028C9.23954 7.26097 8.98116 7.0718 8.68115 7.01654C8.38113 6.96129 8.07231 7.046 7.84247 7.24659L7.52696 7.52195C6.76823 8.18414 6.3195 9.2723 6.69141 10.3741C7.07698 11.5163 7.89983 13.314 9.58552 14.9997C11.3991 16.8133 13.2413 17.5275 14.3186 17.8049C15.1866 18.0283 16.008 17.7288 16.5868 17.2572L17.1783 16.7752C17.4313 16.5691 17.5678 16.2524 17.544 15.9269C17.5201 15.6014 17.3389 15.308 17.0585 15.1409L15.3802 14.1409C15.0412 13.939 14.6152 13.9552 14.2925 14.1824Z" fill="#ffffff"/> </g></svg>55 (11) 0000-0000</li>
+
+
+        <li class="menu_item"><svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> <rect x="3" y="5" width="18" height="14" rx="2" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/> </g></svg>User@email.com.br</li>
+
+
+        <li class="menu_item"><svg xmlns="http://www.w3.org/2000/svg" width="800px" height="800px" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><g id="SVGRepo_bgCarrier" stroke-width="0"/><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="10"/> <polyline points="12 6 12 12 16.5 12"/> </g></svg>Horário de segunda a sexta Das 9hs as 18hs
+        </li>
+      </ul>
+    </div>
+
+
+
+    <div class="social_line">
+      <span class="section__title_social">Habitaki</span>
+      <ul class="site-footer__menu_social">
+        <li class="menu_item">Realizando o sonhos de todo brasileiro</li>
+      </ul>
+      <ul class="site-footer__menu_social_icons">
+        <li class="menu_social"><svg class="tiktok" width="800px" height="800px" viewBox="-3.2 -3.2 38.40 38.40" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-3.2" y="-3.2" width="38.40" height="38.40" rx="19.2" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <path d="M8.45095 19.7926C8.60723 18.4987 9.1379 17.7743 10.1379 17.0317C11.5688 16.0259 13.3561 16.5948 13.3561 16.5948V13.2197C13.7907 13.2085 14.2254 13.2343 14.6551 13.2966V17.6401C14.6551 17.6401 12.8683 17.0712 11.4375 18.0775C10.438 18.8196 9.90623 19.5446 9.7505 20.8385C9.74562 21.5411 9.87747 22.4595 10.4847 23.2536C10.3345 23.1766 10.1815 23.0889 10.0256 22.9905C8.68807 22.0923 8.44444 20.7449 8.45095 19.7926ZM22.0352 6.97898C21.0509 5.90039 20.6786 4.81139 20.5441 4.04639H21.7823C21.7823 4.04639 21.5354 6.05224 23.3347 8.02482L23.3597 8.05134C22.8747 7.7463 22.43 7.38624 22.0352 6.97898ZM28 10.0369V14.293C28 14.293 26.42 14.2312 25.2507 13.9337C23.6179 13.5176 22.5685 12.8795 22.5685 12.8795C22.5685 12.8795 21.8436 12.4245 21.785 12.3928V21.1817C21.785 21.6711 21.651 22.8932 21.2424 23.9125C20.709 25.246 19.8859 26.1212 19.7345 26.3001C19.7345 26.3001 18.7334 27.4832 16.9672 28.28C15.3752 28.9987 13.9774 28.9805 13.5596 28.9987C13.5596 28.9987 11.1434 29.0944 8.96915 27.6814C8.49898 27.3699 8.06011 27.0172 7.6582 26.6277L7.66906 26.6355C9.84383 28.0485 12.2595 27.9528 12.2595 27.9528C12.6779 27.9346 14.0756 27.9528 15.6671 27.2341C17.4317 26.4374 18.4344 25.2543 18.4344 25.2543C18.5842 25.0754 19.4111 24.2001 19.9423 22.8662C20.3498 21.8474 20.4849 20.6247 20.4849 20.1354V11.3475C20.5435 11.3797 21.2679 11.8347 21.2679 11.8347C21.2679 11.8347 22.3179 12.4734 23.9506 12.8889C25.1204 13.1864 26.7 13.2483 26.7 13.2483V9.91314C27.2404 10.0343 27.7011 10.0671 28 10.0369Z" fill="#EE1D52"/> <path d="M26.7009 9.91314V13.2472C26.7009 13.2472 25.1213 13.1853 23.9515 12.8879C22.3188 12.4718 21.2688 11.8337 21.2688 11.8337C21.2688 11.8337 20.5444 11.3787 20.4858 11.3464V20.1364C20.4858 20.6258 20.3518 21.8484 19.9432 22.8672C19.4098 24.2012 18.5867 25.0764 18.4353 25.2553C18.4353 25.2553 17.4337 26.4384 15.668 27.2352C14.0765 27.9539 12.6788 27.9357 12.2604 27.9539C12.2604 27.9539 9.84473 28.0496 7.66995 26.6366L7.6591 26.6288C7.42949 26.4064 7.21336 26.1717 7.01177 25.9257C6.31777 25.0795 5.89237 24.0789 5.78547 23.7934C5.78529 23.7922 5.78529 23.791 5.78547 23.7898C5.61347 23.2937 5.25209 22.1022 5.30147 20.9482C5.38883 18.9122 6.10507 17.6625 6.29444 17.3494C6.79597 16.4957 7.44828 15.7318 8.22233 15.0919C8.90538 14.5396 9.6796 14.1002 10.5132 13.7917C11.4144 13.4295 12.3794 13.2353 13.3565 13.2197V16.5948C13.3565 16.5948 11.5691 16.028 10.1388 17.0317C9.13879 17.7743 8.60812 18.4987 8.45185 19.7926C8.44534 20.7449 8.68897 22.0923 10.0254 22.991C10.1813 23.0898 10.3343 23.1775 10.4845 23.2541C10.7179 23.5576 11.0021 23.8221 11.3255 24.0368C12.631 24.8632 13.7249 24.9209 15.1238 24.3842C16.0565 24.0254 16.7586 23.2167 17.0842 22.3206C17.2888 21.7611 17.2861 21.1978 17.2861 20.6154V4.04639H20.5417C20.6763 4.81139 21.0485 5.90039 22.0328 6.97898C22.4276 7.38624 22.8724 7.7463 23.3573 8.05134C23.5006 8.19955 24.2331 8.93231 25.1734 9.38216C25.6596 9.61469 26.1722 9.79285 26.7009 9.91314Z" fill="#000000"/> <path d="M4.48926 22.7568V22.7594L4.57004 22.9784C4.56076 22.9529 4.53074 22.8754 4.48926 22.7568Z" fill="#146b71"/> <path d="M10.5128 13.7916C9.67919 14.1002 8.90498 14.5396 8.22192 15.0918C7.44763 15.7332 6.79548 16.4987 6.29458 17.354C6.10521 17.6661 5.38897 18.9168 5.30161 20.9528C5.25223 22.1068 5.61361 23.2983 5.78561 23.7944C5.78543 23.7956 5.78543 23.7968 5.78561 23.798C5.89413 24.081 6.31791 25.0815 7.01191 25.9303C7.2135 26.1763 7.42963 26.4111 7.65924 26.6334C6.92357 26.1457 6.26746 25.5562 5.71236 24.8839C5.02433 24.0451 4.60001 23.0549 4.48932 22.7626C4.48919 22.7605 4.48919 22.7584 4.48932 22.7564V22.7527C4.31677 22.2571 3.95431 21.0651 4.00477 19.9096C4.09213 17.8736 4.80838 16.6239 4.99775 16.3108C5.4985 15.4553 6.15067 14.6898 6.92509 14.0486C7.608 13.4961 8.38225 13.0567 9.21598 12.7484C9.73602 12.5416 10.2778 12.3891 10.8319 12.2934C11.6669 12.1537 12.5198 12.1415 13.3588 12.2575V13.2196C12.3808 13.2349 11.4148 13.4291 10.5128 13.7916Z" fill="#146b71"/> <path d="M20.5438 4.04635H17.2881V20.6159C17.2881 21.1983 17.2881 21.76 17.0863 22.3211C16.7575 23.2167 16.058 24.0253 15.1258 24.3842C13.7265 24.923 12.6326 24.8632 11.3276 24.0368C11.0036 23.823 10.7187 23.5594 10.4844 23.2567C11.5962 23.8251 12.5913 23.8152 13.8241 23.341C14.7558 22.9821 15.4563 22.1734 15.784 21.2774C15.9891 20.7178 15.9864 20.1546 15.9864 19.5726V3H20.4819C20.4819 3 20.4315 3.41188 20.5438 4.04635ZM26.7002 8.99104V9.9131C26.1725 9.79263 25.6609 9.61447 25.1755 9.38213C24.2352 8.93228 23.5026 8.19952 23.3594 8.0513C23.5256 8.1559 23.6981 8.25106 23.8759 8.33629C25.0192 8.88339 26.1451 9.04669 26.7002 8.99104Z" fill="#146b71"/> </g></svg></li>
+
+
+        <li class="menu_social"><svg class="facebook" fill="#1e00ff" width="191px" height="191px" viewBox="-4.08 -4.08 32.16 32.16" xmlns="http://www.w3.org/2000/svg" stroke="#1e00ff"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-4.08" y="-4.08" width="32.16" height="32.16" rx="16.08" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" d="M15.1742424,5.3203125 L17,5.3203125 L17,2.140625 C16.6856061,2.09765625 15.6022727,2 14.3409091,2 C11.7083333,2 9.90530303,3.65625 9.90530303,6.69921875 L9.90530303,9.5 L7,9.5 L7,13.0546875 L9.90530303,13.0546875 L9.90530303,22 L13.4659091,22 L13.4659091,13.0546875 L16.2537879,13.0546875 L16.6969697,9.5 L13.4659091,9.5 L13.4659091,7.05078125 C13.4659091,6.0234375 13.7424242,5.3203125 15.1742424,5.3203125 Z"/> </g></svg></li>
+
+
+        <li class="menu_social"><svg class="youtube" width="800px" height="800px" viewBox="-8.16 -8.16 64.32 64.32" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-8.16" y="-8.16" width="64.32" height="64.32" rx="32.16" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <circle cx="24" cy="24" r="20" fill="#ff0000"/> <path fill-rule="evenodd" clip-rule="evenodd" d="M35.3005 16.3781C35.6996 16.7772 35.9872 17.2739 36.1346 17.8187C36.9835 21.2357 36.7873 26.6324 36.1511 30.1813C36.0037 30.7261 35.7161 31.2228 35.317 31.6219C34.9179 32.021 34.4212 32.3086 33.8764 32.456C31.8819 33 23.8544 33 23.8544 33C23.8544 33 15.8269 33 13.8324 32.456C13.2876 32.3086 12.7909 32.021 12.3918 31.6219C11.9927 31.2228 11.7051 30.7261 11.5577 30.1813C10.7038 26.7791 10.9379 21.3791 11.5412 17.8352C11.6886 17.2903 11.9762 16.7936 12.3753 16.3945C12.7744 15.9954 13.2711 15.7079 13.8159 15.5604C15.8104 15.0165 23.8379 15 23.8379 15C23.8379 15 31.8654 15 33.8599 15.544C34.4047 15.6914 34.9014 15.979 35.3005 16.3781ZM27.9423 24L21.283 27.8571V20.1428L27.9423 24Z" fill="white"/> </g></svg></li>
+
+
+        <li class="menu_social"><svg class="instagram" width="800px" height="800px" viewBox="-6.6 -6.6 33.20 33.20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"><rect x="-6.6" y="-6.6" width="33.20" height="33.20" rx="16.6" fill="#ffffff" strokewidth="0"/></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/><g id="SVGRepo_iconCarrier"> <title>instagram [#167]</title> <desc>Created with Sketch.</desc> <defs> </defs> <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"> <g id="Dribbble-Light-Preview" transform="translate(-340.000000, -7439.000000)" fill="#000000"> <g id="icons" transform="translate(56.000000, 160.000000)"> <path d="M289.869652,7279.12273 C288.241769,7279.19618 286.830805,7279.5942 285.691486,7280.72871 C284.548187,7281.86918 284.155147,7283.28558 284.081514,7284.89653 C284.035742,7285.90201 283.768077,7293.49818 284.544207,7295.49028 C285.067597,7296.83422 286.098457,7297.86749 287.454694,7298.39256 C288.087538,7298.63872 288.809936,7298.80547 289.869652,7298.85411 C298.730467,7299.25511 302.015089,7299.03674 303.400182,7295.49028 C303.645956,7294.859 303.815113,7294.1374 303.86188,7293.08031 C304.26686,7284.19677 303.796207,7282.27117 302.251908,7280.72871 C301.027016,7279.50685 299.5862,7278.67508 289.869652,7279.12273 M289.951245,7297.06748 C288.981083,7297.0238 288.454707,7296.86201 288.103459,7296.72603 C287.219865,7296.3826 286.556174,7295.72155 286.214876,7294.84312 C285.623823,7293.32944 285.819846,7286.14023 285.872583,7284.97693 C285.924325,7283.83745 286.155174,7282.79624 286.959165,7281.99226 C287.954203,7280.99968 289.239792,7280.51332 297.993144,7280.90837 C299.135448,7280.95998 300.179243,7281.19026 300.985224,7281.99226 C301.980262,7282.98483 302.473801,7284.28014 302.071806,7292.99991 C302.028024,7293.96767 301.865833,7294.49274 301.729513,7294.84312 C300.829003,7297.15085 298.757333,7297.47145 289.951245,7297.06748 M298.089663,7283.68956 C298.089663,7284.34665 298.623998,7284.88065 299.283709,7284.88065 C299.943419,7284.88065 300.47875,7284.34665 300.47875,7283.68956 C300.47875,7283.03248 299.943419,7282.49847 299.283709,7282.49847 C298.623998,7282.49847 298.089663,7283.03248 298.089663,7283.68956 M288.862673,7288.98792 C288.862673,7291.80286 291.150266,7294.08479 293.972194,7294.08479 C296.794123,7294.08479 299.081716,7291.80286 299.081716,7288.98792 C299.081716,7286.17298 296.794123,7283.89205 293.972194,7283.89205 C291.150266,7283.89205 288.862673,7286.17298 288.862673,7288.98792 M290.655732,7288.98792 C290.655732,7287.16159 292.140329,7285.67967 293.972194,7285.67967 C295.80406,7285.67967 297.288657,7287.16159 297.288657,7288.98792 C297.288657,7290.81525 295.80406,7292.29716 293.972194,7292.29716 C292.140329,7292.29716 290.655732,7290.81525 290.655732,7288.98792" id="instagram-[#167]"> </path> </g> </g> </g> </g></svg></li>
+      </ul>
+
+    </div>
+
+
+
+  </footer>
+  <div class="site-footer_about">
+    <div class="site-footer__container main-content">
+      <div class="site-footer_brand">
+        <span class="footer_end">COPTRIGHT Habitaki @2023 - TODOS OS DIREITOS RESERVADOS.</span>
+      </div>
+    </div>
+  </div>
+
+  
+</body>
+</html>

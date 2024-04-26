@@ -1,0 +1,291 @@
+.search {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    /* margin-right: 150px; */
+    margin-top: 30px;
+    gap: 20px; 
+}
+
+.grid-main-heading {
+    font-size: 1.2rem;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    text-transform: none;
+}
+
+.grid-one-content .inicio {
+    font-size: 12px;
+    color: #6b6b6b;
+    margin-top: 50px;
+}
+
+.property_location {
+    width: 27rem;
+    background-color: #ffb3b3;
+    border: solid #ffb3b3 1px;
+    border-radius: 5px;
+    padding: 20px 15px;
+}
+
+.property_location h6 {
+    color: #3d3c3c;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.property_location ul li {
+    list-style: none;
+}
+
+.property_type {
+    width: 200px;
+    height: 40px;
+    font-size: 12px;
+    padding: 5px;
+    color: #808080;
+    border-radius: 5px;
+}
+
+.prices {
+    margin-top: 9px;
+}
+
+.prices td{
+    width: 50%;
+}
+
+.prices input {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 7px;
+}
+
+.bond_price {
+    font-size: 13px;
+    height: 1px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #3d3c3c;
+}
+
+.text_right{
+    text-align: right;
+}
+
+.number_of_vacancies {
+    font-size: 12px;
+    padding-top: 10px ;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.number_of_bathrooms {
+    font-size: 12px;
+    padding-top: 10px ;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.number_of_bedrooms {
+    font-size: 12px;
+    padding-top: 10px ;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.search_more {
+    width: 27rem;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border: solid gray 1px;
+    margin-top: 20px;
+}
+
+.show_apartaments {
+    float: right;
+    padding: 10px 20px;
+    margin-bottom: 100px;
+    /* margin-top: 50px; */
+    /* margin-left: 150px; */
+}
+
+.gray_line {
+    border-top: 1px solid gray;
+    width: 75rem;
+}
+
+.search_result{
+    font-size: 20px;
+    padding: 13px 0px;  
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.apartament {
+    position: relative;
+    height: 170px;
+    width: 100rem;
+    margin-bottom: 20px;
+}
+ 
+.apartament img {
+    height: 160px;
+    width: 230px;
+    border-radius: 15px;
+}
+
+.img_apartament{
+    float: left;
+    padding-right: 10px;
+}
+
+.inform_apartament{
+    float: left;    
+}
+
+.address{
+    color: gray;
+    font-size: 13px;
+}
+
+.apartament_description{
+    font-size: 18px;
+
+}
+
+.condominium_items {
+    display: inline-flex;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.condominium_items ul li{
+    display: inline-block;
+    border-radius: 20px;
+    padding: 5px 10px; 
+    font-size: 12px;
+}
+
+.condominium_price {
+    font-size: 15px;
+    /* vertical-align: middle; */
+    align-items: center;
+    display: flex;
+    margin-right: 50px;
+    justify-content: space-between;
+}
+
+.list-info {
+    margin-top: 10px;
+}
+
+.tour {
+    display: flex;
+    /* justify-content: flex-end; */
+    margin-left: 50px;
+    margin-top: -25px;
+    margin-bottom: 30px;
+    font-size: 13px;
+}
+
+.checkbox-container {
+    display: flex;
+    flex-direction: column;
+}
+  
+.checkbox-container label {
+    margin-bottom: 15px;
+}
+  
+.checkbox-container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.checkbox_topics {
+    font-size: 13px;
+    padding-top: 10px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 7px;
+}
+
+.checkbox_text {
+    font-size: 12.7px;
+    vertical-align: middle;
+}
+
+.checkbox_size {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.search_main {
+    font-size: 13px;
+    font-family: "Open Sans", Helvetica, sans-serif;
+    text-transform: none;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.options_main ul {
+    /* display: flex; */
+    padding: 0px 0px;
+    margin: 0px;
+    align-items: center;
+}
+
+.options_main ul li:first-child{
+    margin-left: -0px;
+}
+
+.options_main ul li {
+    display: inline-block;
+}
+
+.options_main .list-first{
+    display: inline-block;
+    padding: 5px 15px;
+}
+
+.options_main ul li a{
+    text-decoration: none;
+}
+
+.options_main ul li:hover{ 
+    border-bottom: solid rgb(85, 85, 85);
+}
+
+.bed svg{
+    border: solid gray 1px;
+    border-radius: 100%;
+}
+
+.bathroom svg{
+    border: solid gray 1px;
+    border-radius: 100%;
+}
+
+.meters svg{
+    border: solid gray 1px;
+    border-radius: 100%;
+}
+
+.car svg{
+    border: solid gray 1px;
+    border-radius: 100%;
+}
+
+.options_main {
+    vertical-align: middle;
+}
+
+.price_list {
+    color: #0400d6;
+}
+
